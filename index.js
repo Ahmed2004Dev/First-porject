@@ -187,3 +187,74 @@
 
 
 
+
+
+// Essay Questions
+
+
+// 01
+// forEach is an Array Method that uses an Arrow Function and accepts parameters such as element, index, and array.
+// One disadvantage of forEach is that it does not work as expected with await.
+// for...of is a For Loop and works better with await.
+// It supports Destructuring.
+// It can be used to access both index and value through entries().
+// When working with Async/Await, for...of is generally a better choice than forEach.
+
+
+
+// 2
+// Hoisting is a """behavior""" in JavaScript where the JavaScript engine prepares declarations before the code is executed.
+// console.log(num);
+// var num = 5
+// The Temporal Dead Zone (TDZ) is the """period""" of time between the creation of a variable and the point where its declaration is reached in the code.
+// console.log(num);
+// let num = 5
+
+
+
+// 3
+// == Meaning Value 
+// === Meaning Value & Datatype
+
+
+
+// 4
+// How does try...catch work?
+// -The code that may throw an error is placed inside the try block.
+// -If no error occurs, the code executes normally.
+// -If an error occurs, execution of the try block stops immediately.
+// -JavaScript jumps to the catch block.
+// -Error information is passed to the parameter inside catch.
+// -The error can then be handled, logged, or displayed to the user.
+// Why is it important in asynchronous operations?
+// -Asynchronous operations such as fetch() and API requests can fail for various reasons.
+// -It prevents the application from crashing when an error occurs.
+// -It allows developers to provide user-friendly error messages.
+// -It helps handle network and server-related errors.
+// -It prevents unhandled promise rejections.
+// -It improves code reliability and maintainability.
+
+
+
+// 5
+// A- Type Coercion
+// Performed automatically by JavaScript.
+// let num1 = 5;
+// let num2 = "5";
+// let result = num1 + num2
+// console.log(result);
+// console.log(typeof result);
+// B- Type Conversion
+// Performed by the developer.
+// let num1 = 5;
+// let num2 = Number("5");
+// let result = num1 + num2
+// console.log(result);
+// console.log(typeof result);
+
+
+
+
+
+
+
